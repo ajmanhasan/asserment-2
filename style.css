@@ -162,18 +162,31 @@ font-size: 1.1cm;
     }
     .had-2{
         flex-direction: column;
+       
     }
     .ing-4th{
         /* display: flex;
         flex-direction: column; */
         display: grid;
-        grid-template-columns:repeat(1,1fr)
+        grid-template-columns:repeat(1,1fr);
+        margin: 0px;
+
        
     }
     .icon-fb{
         display: flex;
     }
-    
+    .img-1{
+        flex-direction: column;
+    }
+    .img-2,.img-3{
+        flex-direction: column;
+       
+    }
+    .img-2{
+        flex-direction: column;
+        
+    }
 
 
     
@@ -333,6 +346,16 @@ gap: 20px;
     width: 100%;
     border-radius: 30px 30px 0 0 ;
 }
+.img-z-2{
+    background-color: deeppink;
+    padding: 10px 15px;
+    border: none;
+    margin-top: -10px;
+    border-radius: 10px;
+   
+    
+}
+
 
 .img-4th{
     display: grid;
@@ -353,8 +376,9 @@ gap: 20px;
 .img-sob-1{
     border-radius: 10px 10px 0 0 ;
 }
-.img-1-a{
-    background-color:lightgreen;
+.img-mad{
+    background-color: deeppink;
+    background-color: ;
     padding: 10px 15px;
     border: none;
     margin-top: -100px;
@@ -411,13 +435,15 @@ gap: 20px;
 }
 .img-sob-4{
     border-radius: 10px 10px 0 0 ;
+    
 }
 .img-4-a{
     background-color: cyan;
-    padding: 10px 15px;
+     padding: 10px 15px; 
     border: none;
-    margin-top: -100px;
+    margin-top: -10px;
     border-radius: 10px;
+    
 }
 .btn-a{
     display: flex;
